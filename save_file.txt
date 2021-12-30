@@ -1,0 +1,73 @@
+class Nodo:
+    def __init__(self,dato):
+        self.dato = dato
+        self.siguiente = None
+
+class Lista:
+    def __init__(self):
+        self.head = None
+        self.Size = 0
+
+    def listar(self, dato):
+        nodo = Nodo(dato)
+        if self.Size == 0:
+            self.head = nodo
+        else:
+            Current = self.head
+            while Current.siguiente != None:
+                Current = Current.siguiente
+            Current.siguiente = nodo        
+        self.Size += 1
+        return nodo
+
+
+    def mostrar(self):
+        if self.head is None:
+            print("La agenda esta vacía")
+            return
+        else:
+            n = self.head
+            while n is not None:
+                print(n.dato)
+                n = n.siguiente
+
+    def mostrarInv(self):
+        prev = None
+        n = self.head
+        while n is not None:
+            next = n.siguiente
+            n.siguiente = prev
+            prev = n
+            n = next
+        self.head = prev
+       
+
+
+listado = Lista()
+
+Salir = False
+opcion = 0
+
+while not Salir:
+    print("--------------------------------------")
+    print("1. Ingreso de datos")
+    print("2. Mostrar datos")
+    print("3. Invertir datos")
+    print("4. Salir")
+    print("--------------------------------------")
+
+    menu = (input("Opcion: "))
+    if menu.isdigit():
+        menu = int(menu)
+        if menu == 1:
+            numero = input("Ingrese un dato: ")
+            listado.listar(numero)
+        elif menu == 2:
+            listado.mostrar()
+        elif menu == 3:
+            listado.mostrarInv()
+            listado.mostrar()
+        elif menu == 4:
+            exit()
+    else:
+            print("Debe ingresar una opcion valida ")
