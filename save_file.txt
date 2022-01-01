@@ -1,73 +1,763 @@
-class Nodo:
-    def __init__(self,dato):
-        self.dato = dato
-        self.siguiente = None
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 1    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-class Lista:
-    def __init__(self):
-        self.head = None
-        self.Size = 0
+CUALIDADES DEL SOFTWARE
+LAS CUALIDADES SON:
+LA PRODUCTIVIDAD
+Es una cualidad del proceso de producción de software, calcula la eficiencia del proceso. Un proceso eficiente resulta en una entrega más rápida del producto. Los ingenieros originan software individualmente a cierta tasa, la cual puede alterarse considerablemente entre individuos con habilidad distinta.
 
-    def listar(self, dato):
-        nodo = Nodo(dato)
-        if self.Size == 0:
-            self.head = nodo
-        else:
-            Current = self.head
-            while Current.siguiente != None:
-                Current = Current.siguiente
-            Current.siguiente = nodo        
-        self.Size += 1
-        return nodo
+LA PRODUCTIVIDAD
+OPORTUNIDAD
+La oportunidad es una cualidad del proceso que se refiere a la habilidad de liberar el software a tiempo. Esto puede ser un arma de doble filo ya que muchos procesos fracasan en alcanzar los resultados a tiempo. La oportunidad en sí misma no es una cualidad útil, aunque llegar tarde puede llevar a perder oportunidades en el mercado, entregar un producto a tiempo que carece de otras cualidades como confiabilidad o performance, no tiene sentido. Entregar un producto a tiempo requiere una agenda planeada cuidadosamente, con un trabajo de estimación acertado y puntos de revisión especificados claramente y verificables.
+
+OPORTUNIDAD
+PORTABILIDAD
+Se refiere a la manera en que los clientes pueden acceder a los productos ya que un software portable es mucho más fácil de obtener por los clientes dado que pueden acceder a dicho software. El software es portable si puede ser desarrollado en distintos ambientes, refiriéndose este último tanto a plataformas de hardware como a ambientes de software como puede ser determinado sistema operativo.
+
+PORTABILIDAD
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 2    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¿Que signifíca
+la palabra
+software?
+DESPLIEGUE DE SOFTWARE
+RESUMIENDO
+Despliegue de software
+El despliegue es la etapa en la cual concluiremos con nuestro Proceso de Desarrollo de Software.
+
+EQUIPAMENTO A DESPLEGAR
+OBJETIVO
+La palabra software
+
+hace referencia a el equipamento no tangible y lógico de un computador.
+
+NECESIDADES
+ESPECÍFICAS
+DE LOS CLIENTES
+PERSONAL DISPONIBLE
+ACTIVIDADES EN EL
+DESPLIEGUE
+Producción del software
+Empaquetar el software
+Distribución del software
+Instalación del software
+Formación en el software
+DES
+Este tiene como objetivo producir con éxito distribuciones del producto distribuirlo a los usuarios.
+
+PLANIFICACIÓN
+MUCHAS GRACIAS!!!
+DE
+DESPLIEGUE
+Extender algo que esta plegado
+Dar mostrar algo
+poner en practica algo o mostrar cualidad
+¿QUÉ SIGNIFCA
+LA PALABRA
+DESPLIEGUE?
+Análisis
+Diseño
+Implementación
+Pruebas
+Despliegue
+Las Etapas de Desarrollo de Software
+MUCHAS GRACIAS!!!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 3    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¿en que consiste el despliegue de un software?
+
+Actividades de desarrollo de software - Despliegue y mantenimiento
+José María Chiquito García
+Raul pille Dimas
+Carlos Eduardo Juarez Reyes
+¿Qué es el mantenimiento de un software?
+El Mantenimiento del Software es una de las actividades más comunes a realizar dentro de este sector, es el proceso final después de que un software está siendo utilizado.
+
+¿que es el despliegue de un software?
+El Despliegue de software son todas las actividades que hacen que un sistema de software esté disponible para su uso.
+
+¿En que consiste el mantenimiento del software?
+Se centra sobre los detalles de procesamiento de cada módulo individual.
+
+El procedimiento debe proporcionar una especificación precisa del procesamiento, incluyendo la secuencia de procesos, las decisiones y la repetición de operaciones.
+
+El proceso de implementación general consiste en varias actividades interrelacionadas con posibles transiciones entre ellas.
+
+Ventajas y desventajas del mantenimiento
+VENTAJAS:
+
+-Confiabilidad, los equipos operan en mejores condiciones de seguridad, ya que se conoce su estado, y sus condiciones de funcionamiento.
+
+-Mayor duración de los equipos e instalaciones.
+
+-Uniformidad en la carga de trabajo para el personal del mantenimiento debido a una programación de actividades.
+
+-Menor costo de reparaciones.
+
+Desventajas:
+
+-Es muy probable que se originen algunas fallas al momento de la ejecución, lo que ocasiona que este sea más tardado.
+
+-El precio puede ser muy costoso, lo cual podría afectar a la hora de comprar los repuestos de recursos en el momento que se necesiten.
+
+-No podemos asegurar el tiempo que tardara en reparase dichas fallas.
+
+ventajas y desventajas del despliegue del software
+Ventajas
+
+Muestra un conjunto de nodos y sus relaciones.
+
+Se utilizan para describir la vista de despliegue estática de un sistema.
+
+Se relacionan con los diagramas de componentes, ya que un nodo normalmente incluye uno o más componentes.
+
+Desventajas
+
+La posible falla en la moderación de un hardware.
+
+Tales sistemas contienen a menudo varias versiones de componentes software, alguno de los cuales pueden incluso migrar de un nodo a otro.El diseño de tales sistemas requiere tomar decisiones que permitan un cambio continuo de la topología del sistema.
+
+Bibliografia
+Conclusiones
+
+https://okhosting.com/blog/el-mantenimiento-de-software/
+
+Bibliografia
+https://okhosting.com/blog/el-mantenimiento-de-software/
+
+https://es.wikipedia.org/wiki/Despliegue_de_software
+
+https://www.ecured.cu/Diagrama_de_despliegue
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 4    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gestión de la configuración del software GCS
+El proyecto
+
+10 señales que indican que un proyecto de sistemas de información está en peligro:
+
+Regla 90-90
+
+6. Las fechas límite son irreales.
+
+7. Los usuarios son resistentes.
+
+8. Pérdida de patrocinio [o nunca obtenido adecuadamente].
+
+9. El equipo del proyecto carece de personal con habilidades adecuadas.
+
+10. Los gerentes [y profesionales] evitan mejores prácticas y lecciones aprendidas.
+
+1. Comenzar con el pie derecho. Esto se logra al trabajar duro (muy duro) para entender el problema que debe resolverse y luego establecer objetivos y expectativas realistas para todos aquellos que estarán involucrados en el proyecto. Lo anterior se refuerza al construir el equipo correcto) y darle autonomía, autoridad y tecnología necesarias para realizar el trabajo.
+
+2. Mantener la cantidad de movimiento. Muchos proyectos parten hacia un buen comienzo y luego lentamente se desintegran. A fin de mantener la cantidad de movimiento, el gerente de proyecto debe proporcionar incentivos para mantener la rotación de personal en un mínimo absoluto, el equipo debe enfatizar la calidad en cada tarea que realice y
+
+el administrador ejecutivo debe hacer todo lo posible para permanecer fuera del camino del equipo.
+
+Principio W5HH
+
+Decidir qué modelo de proceso es más adecuado:
+1) para los clientes que solicitaron el producto y el personal que hará el trabajo.
+
+2) para las características del producto en sí y
+
+3) para el entorno de proyecto donde trabaja el equipo de software
+
+Disciplina de la identificación del sw, en distintos puntos en el tiempo, con el propósito de controlar los cambios de forma sistemática, mantenimiento de la integridad y trazabilidad de la configuración durante todo el ciclo de vida
+
+Planificar, organizar, monitorear y controlar proyectos de software.
+
+Contexto organizacional
+Restricciones
+Planificar
+Control
+Identificación en la configuración del software
+El producto
+
+Contexto: ¿Cómo encaja el software en un sistema, producto o contexto empresarial?
+Objetivos de información: ¿Que objetos de datos visibles para el cliente se producen como salida del software?¿Que objetos de datos se requieren como entrada?
+El personal:
+Función y desempeño: ¿Que función realiza el software para transformar los datos de entrada en salida´?¿Existe alguna característica de desempeño especial que deba abordarse?
+Desarrollo basado en componentes
+Modelo de métodos formales
+Desarrollo de software orientado a aspectos
+El proceso:
+4. Tome decisiones inteligentes.
+
+Decida usar software comercial, o componentes o patrones de software existentes,
+Evitar interfaces a la medida cuando estén disponibles enfoques estándar;
+Identificar y luego evitar los riesgos obvios,
+Asignar más tiempo del que se considere necesario para tareas complejas y riesgosas.
+Definir un plan de proyecto preliminar: De acuerdo al marco conceptual del proceso(comunicación, planificación, modelado, construcción y despliegue).
+Ej: tareas para la actividad de comunicación:
+1. Desarrollar lista de clarificación de conflictos.
+
+2. Reunirse con los participantes para abordar la clarificación de conflictos.
+
+3. Desarrollar en conjunto un enunciado del ámbito.
+
+4. Revisar el enunciado del ámbito con todos los interesados.
+
+5. Modificar el enunciado del ámbito según se requiera.
+
+Gestión de Proyecto
+Gestión del proceso de la GCS
+La administración efectiva de un proyecto de software se enfoca en las cuatro P: personal, producto, proceso y proyecto.
+
+1. Ámbito del software:
+Describe el control y los datos a procesar, la función, el rendimiento, las restricciones, las interfaces y la fiabilidad.
+El equipo de software: Paradigmas
+
+Identidad administrativa:
+
+Debe tener la confianza para asumir el control cuando sea necesario y asegurarse de permitir que el buen personal técnico siga sus instintos.
+Logro:
+
+Recompensar la iniciativa y el logro para optimizar la productividad de un equipo de proyecto.
+Debe demostrar mediante sus acciones que no se castigará del correr riesgos de manera controlada.
+Influencia y construcción del equipo:
+
+Debe poder “leer” a la gente; debe poder comprender las señales verbales y no verbales, y reaccionar ante las necesidades de las personas que envían estas señales.
+Debe permanecer bajo control en situaciones de alto estrés.
+Gestión de cambios durante el ciclo de vida del software:
+
+1. Solicitud, evaluación y aprobación de cambios.
+
+2. Implementación de cambios.
+
+3. Desviaciones y remisiones
+
+Información e informes
+
+Práctica
+
+Principios fundamentales
+Comunicación
+
+Adicional a las cinco actividades estructurales básicas (comunicación, planeación, modelado, construcción y despliegue), se tiene seguimiento y control del proyecto
+
+1. El personal del software no entiende las necesidades del cliente.
+
+2. El ámbito del producto está pobremente definido.
+
+3. Los cambios se gestionan pobremente.
+
+4. Cambia la tecnología elegida.
+
+5. Las necesidades empresariales cambian [o están mal definidas].
+
+Define ítems a ser controlados
+Establece la identificación de esquemas para los ítems y sus versiones
+Técnicas para la adquisición y gestión de ítems controlados
+Bibliotecas de software
+Equipo de Software
+
+Recolección de la información: acercar al desarrollador y al cliente para establecer una comunicación
+1 - Preguntas de contexto libre: se centran en el cliente, en los objetivos globales y en los beneficios. Estas preguntas deben llevar a un entendimiento básico del problema, las personas interesadas en la solución y la solución que se desea.
+2 - Metacuestiones: estas preguntas se centran en la efectividad de la reunión,
+- Determinar si la persona es la apropiada para responder a las preguntas
+- Verificar si las respuestas son oficiales
+- Determinar si existe algo que se debería preguntar.
+Viabilidad
+¿Se puede construir el software de acuerdo al ámbito definido?
+¿Es factible el proyecto? - 4 dimensiones: Tecnología, financiación, Tiempo y Recursos.
+Es el elemento mas importante para el éxito de un proyecto de software.
+
+El equipo de software debe organizarse de manera que maximice las habilidades y capacidades de cada persona.
+
+Cerrado estructura un equipo conforme a una jerarquía de autoridad tradicional. Será menos probable que sean innovadores.
+Aleatorio estructura un equipo de manera holgada y depende de la iniciativa individual de los miembros del equipo. Cuando se requiere innovación o avance tecnológico, destacarán los equipos que siguen este paradigma, pero pueden batallar cuando se requiera “desempeño ordenado”.
+RECURSOS
+Recurso humano
+- Se debe establecer el perfil y las habilidades que se necesitan del personal que se necesita para llevar a cabo el desarrollo del proyecto.
+- Especificar tanto la posición dentro de la organización como la especialidad.
+- Gestor
+- Ingeniero de software
+- Analista de sistemas
+Recursos de software reutilizable
+Se establecen 4 categorías de recursos de software que se deben tener en cuenta a medida que se avanza con la planificación:
+Componentes ya desarrollados: componentes que ya han sido validados totalmente.
+Componentes ya experimentados: se puede utilizar Especificaciones, diseños, código o datos de prueba existentes que ya han sido desarrollados para proyectos anteriores.
+Componentes con experiencia parcial: se puede utilizar Especificaciones, diseños, código o datos de prueba existentes que ya han sido desarrollados para proyectos anteriores y que requieren una modificación sustancial.
+Componentes nuevos: componentes que el equipo de software requiere construir específicamente para el proyecto.
+Equipos ágiles:
+
+Son autoorganizados.
+Autonomía para tomar las decisiones administrativas y técnicas del proyecto necesarias para hacer que el trabajo se cumpla.
+La planificación se mantiene al mínimo y al equipo se le permite seleccionar
+su propio enfoque.
+Restringido únicamente por los requerimientos empresariales y los estándares de la organización
+Reuniones grupales diarias para coordinar y sincronizar el trabajo que debe realizarse en ese día.
+Abierto intenta estructurar un equipo de manera que logre algunos de los controles asociados con el paradigma cerrado, pero también mucha de la innovación que ocurre cuando se usa el paradigma aleatorio. El trabajo se realiza de manera colaboradora; la gran comunicación y la toma de decisiones consensuadas constituyen las características de los equipos de paradigma abierto. Las estructuras de equipo de este paradigma son muy adecuadas para la solución de problemas complejos, pero pueden no desempeñarse tan eficazmente como otros equipos.
+Gerentes ejecutivos: Definen temas empresariales.
+Gerentes de proyecto: Planificación, motivación, organización y control de los profesionales de desarrollo de software.
+Profesionales: aportan las habilidades técnicas que se necesitan para someter a ingeniería
+un producto o aplicación.
+Clientes: Clientes que especifican los requerimientos para el software que se va a fabricar, así
+como otros participantes que tienen un interés periférico en el resultado.
+Usuarios finales
+Síncrono se apoya en la compartimentalización natural de un problema y organiza a los miembros del equipo para trabajar en trozos del problema con poca comunicación activa entre ellos
+El producto:
+2. Descomposición del problema
+Funcionalidad y contenido
+Proceso que se usara para entregarlo
+Control de configuración de software
+1. Líderes de equipo
+
+El producto
+
+El equipo de software:
+
+Habilidades para:
+
+Alentar al personal técnico a producir a su máxima capacidad.
+Moldear los procesos existentes (o inventar nuevos) que permitirán que el concepto inicial se traduzca en un producto final.
+Alentar a las personas a crear y sentirse creativas, aun cuando deban trabajar dentro de fronteras establecidas para un producto o aplicación de software particular.
+Jackman[Jac98]:“toxicidad de equipo”.
+
+Cinco factores que “fomentan un ambiente de
+
+equipo potencialmente tóxico”:
+
+1) una atmósfera de trabajo frenético,
+
+2) alta frustración que causa fricción entre los miembros del equipo,
+
+3) un proceso de software “fragmentado o pobremente coordinado”,
+
+4) una definición poco clara de los roles en el equipo de software y
+
+5) “continua y repetida exposición al fracaso”.
+
+Un proyecto de software requiere estimaciones cuantitativas y un plan organizado.
+
+No hay información sólida disponible.
+Los requerimientos pueden variar conforme avanza el proyecto.
+El plan es NECESARIO
+
+Resolución de problemas:
+
+Diagnosticar los conflictos técnicos y organizativos que son más relevantes, estructura sistemáticamente una solución o motiva adecuadamente a otros profesionales para desarrollarla
+Aplica lecciones aprendidas de proyectos pasados a situaciones nuevas y sigue siendo suficientemente flexible para cambiar de dirección si los intentos por resolver el problema son infructuosos.
+Registro del estado de la configuración:
+Auditoría de configuración de software:
+Configuración funcional
+Configuración física
+Línea de base de software
+Tareas
+3. Siga la pista al progreso. El progreso se rastrea conforme los productos operativos (modelos, código fuente, conjuntos de casos de prueba) se producen y aprueban (usando revisiones técnicas) como parte de una actividad
+
+que asegure la calidad.
+
+Además, pueden recopilarse medidas de proceso de software y proyecto y usarse para valorar el progreso contra promedios desarrollados para la organización de desarrollo del software.
+
+Principios fundamentales
+Principios que guían la actividad estructural
+Representar el problema y su solución desde varias perspectivas diferentes.
+Tener en mente que alguien dará mantenimiento al software. El software será corregido en el largo plazo, cuando se descubran sus defectos, se adapte a los cambios de su ambiente y se mejore en el momento en el que los participantes pidan más capacidades. Estas actividades de mantenimiento resultan más fáciles si se aplica una práctica sólida de ingeniería de software a lo largo del proceso de software.
+Comunicación
+
+Escuchar. Trate de centrarse en las palabras del hablante en lugar de formular su respuesta a dichas palabras. Si algo no está claro, pregunte para aclararlo, pero evite las interrupciones constantes. Si una persona habla, nunca parezca usted beligerante en sus palabras o actos (por ejemplo, con giros de los ojos o movimientos de la cabeza).
+Prepararse. Dedique algún tiempo a entender el problema antes de reunirse con otras personas. Si es necesario, haga algunas investigaciones para entender el vocabulario propio del negocio. Si tiene la responsabilidad de conducir la reunión, prepare una agenda antes de que ésta tenga lugar.
+Principios que guían la actividad estructural
+Práctica
+
+Escuchar. Trate de centrarse en las palabras del hablante en lugar de formular su respuesta a dichas palabras. Si algo no está claro, pregunte para aclararlo, pero evite las interrupciones constantes. Si una persona habla, nunca parezca usted beligerante en sus palabras o actos (por ejemplo, con giros de los ojos o movimientos de la cabeza).
+Prepararse. Dedique algún tiempo a entender el problema antes de reunirse con otras personas. Si es necesario, haga algunas investigaciones para entender el vocabulario propio del negocio. Si tiene la responsabilidad de conducir la reunión, prepare una agenda antes de que ésta tenga lugar.
+Centrarse en la transferencia de información: debe ponerse atención especial al análisis, diseño, construcción y prueba de las interfaces.
+Construir software que tenga modularidad eficaz. Cada módulo debe centrarse exclusivamente en un aspecto bien delimitado del sistema: debe ser cohesivo en su función o restringido en el contenido que representa. Además, los módulos deben estar interconectados en forma relativamente sencilla.
+Buscar patrones. Crear un cúmulo de bibliografía que ayude a los desarrolladores de software a resolver problemas recurrentes que surgen a lo largo del desarrollo.
+Principios Fundamentales:
+Proceso:
+Principios Fundamentales:
+Proceso:
+Estar listo para adaptar: Cuando sea necesario, adapte su enfoque a las restricciones impuestas por el problema, la gente y el proyecto en sí.
+Formar un equipo eficaz: El objetivo son las personas. Forme un equipo con organización propia en el que haya confianza y respeto mutuos.
+Establecer mecanismos para la comunicación y coordinación: Los proyectos fallan porque la información importante cae en las grietas o porque los participantes no coordinan sus esfuerzos para crear un producto final exitoso. Éstos son aspectos de la administración que deben enfrentarse.
+Principios fundamentales
+Práctica
+
+Divide y vencerás. El análisis y el diseño siempre deben enfatizar la separación de entidades (SdE). Un problema grande es más fácil de resolver si se divide en un conjunto de elementos (o entidades). Lo ideal es que cada entidad entregue funcionalidad distinta que pueda desarrollarse, y en ciertos casos validarse, independientemente de otras entidades.
+Entender el uso de la abstracción: eliminar la necesidad de comunicar detalles pero sin la comprensión de los detalles, no puede diagnosticarse con facilidad la causa de un problema.
+Buscar la coherencia. Ya sea que se esté creando un modelo de los requerimientos, se desarrolle un diseño de software, se genere código fuente o se elaboren casos de prueba, el principio de coherencia sugiere que un contexto familiar hace que el software sea más fácil de usar.
+Administrar el cambio. El enfoque puede ser formal o informal, pero deben establecerse mecanismos para administrar la forma en la que los cambios se solicitan, evalúan, aprueban e implementan.
+Evaluar el riesgo: Es esencial establecer planes de contingencia.
+Crear productos del trabajo que agreguen valor para otros:. Sólo genere aquellos productos del trabajo que agreguen valor para otras actividades, acciones o tareas del proceso. Todo producto del trabajo que se genere como parte de la práctica de ingeniería de software pasará a alguien más. La lista de las funciones y características requeridas se dará a la persona (o personas) que desarrollará(n) un diseño, el diseño pasará a quienes generan código y así sucesivamente. Asegúrese de que el producto del trabajo imparte la información necesaria sin ambigüedades u omisiones.
+Proceso:
+Ser ágil: Ya sea que el modelo de proceso que se elija sea prescriptivo o ágil. Todo aspecto del trabajo que se haga debe poner el énfasis en la economía de acción: en mantener el enfoque técnico tan sencillo como sea posible, hacer los productos del trabajo que se generan tan concisos como se pueda y tomar las decisiones localmente, siempre que sea posible.
+En cada etapa, centrarse en la calidad: La condición de salida para toda actividad, acción y tarea del proceso debe centrarse en la calidad del producto del trabajo que se ha generado.
+Librería de software: proveen funcionalidad a los desarolladores de aplicaciones. Consisten en código reutilizable que los desarolladores pueden utilizar en sus proyectos.
+Modelo de cascada
+Modelos de proceso incremental
+Modelos de proceso evolutivo
+Modelos concurrentes
+Modelos de proceso prescriptivo
+Modelos de proceso especializado
+Ciclo de vida de software
+Buscan generar estructura y orden un proceso basado en el cambio.
+
+Prescriben un conjunto de elementos del proceso : actividades estructurales, tareas, productos de trabajo, aseguramiento de la calidad y mecanismos de control del cambio
+
+Conjunto de actividades y resultados asociados que conducen a la creación de un producto de software.
+
+Cuando el proceso implica la construcción de algún producto, se define el proceso como Ciclo de Vida
+
+Actividad estructural
+Comunicación, Planeación, Modelado, Construcción y despliegue.
+
+Trabajo real por efectuar a fin de cumplir los objetivos de una acción de ingeniería de software.
+
+Ej:
+
+Modelos de proceso
+Entendiendo proceso como la colección de actividades de trabajo, acciones y tareas que se realizan cuando va acrearse algún producto terminado.
+
+Flujo de proceso
+AC- Areas de conocimiento:
+
+Diseño del software
+Construcción del software
+Pruebas del software
+Mantenimiento del software
+Gestión de la configuración del software
+Gestión de la ingeniería del software
+Métodos y herramientas de la ingeniería del software
+Calidad del software
+5. Realice un análisis postmortem.
+
+Establezca un mecanismo consistente para extraer lecciones aprendidas por cada proyecto.
+Evalúe los calendarios planeado y real, recopile y analice métricas de proyecto de software,
+Consiga retroalimentación de los miembros del equipo y de los clientes,
+Registre los hallazgos en forma escrita.
+El equipo tiene acceso a toda la información requerida para hacer el trabajo
+Las metas y objetivos principales, una vez definidos, no deben modificarse a menos que sea absolutamente necesario
+Se le da al equipo tanta responsabilidad para la toma de decisiones como sea posible
+El equipo mismo debe establecer sus propios mecanismos de responsabilidad.
+Principios Fundamentales:
+Modelos de proceso prescriptivo:
+KA- Área de conocimiento de requisitos del software, se encarga del análisis, especificación y validación de requisitos.
+
+Construcción de Software
+add logo here
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 5    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Nivel de instancia
+Nivel de especificación
+Muestran el despliegue de instancias de artefactos en instancias específicas de los destinos de despliegue . Se utiliza por ejemplo para mostrar las diferencias existentes en nombres/identificaciones en ambientes de despliegue a desarrollo, de "staging" o de producción, entre construcciones específicas o servidores de despliegue o dispositivos.
+
+Muestran una visión general del despliegue de los artefactos hacia los destinos de despliegue , sin hacer referencia a casos concretos de artefactos o nodos.
+
+Los diagramas de despliegue muestran la configuración en funcionamiento del sistema, incluyendo su hardware y su software. Para cada componente de un diagrama de despliegue se deben documentar las características técnicas requeridas, el tráfico de red esperado, el tiempo de respuesta requerido, etc.
+
+Los diagramas de despliegue pueden describir la arquitectura a nivel de especificación (también llamado nivel de tipo) o al nivel de instancia (de manera similar a los diagramas de clases y diagramas de objetos).
+
+Elementos
+muestran las relaciones físicas de los distintos nodos que componen un sistema y el reparto de los componentes sobre dichos nodos. La vista de despliegue representa la disposición de las instancias de componentes de ejecución en instancias de nodos conectados por enlaces de comunicación. Un nodo es un recurso de ejecución tal como un computador, un dispositivo o memoria
+
+Diagramas de despliegue
+• Dispositivos
+• Procesadores
+• Memoria
+Un nodo puede contener instancias de componentes software, objetos, procesos (caso particular de un objeto). En general un nodo será una unidad de computación de algún tipo, desde un sensor a un mainframe. Las instancias de componentes software pueden estar unidas por relaciones de dependencia, posiblemente a interfaces (ya que un componente puede tener más de una interfaz).
+
+nodos que se representa como un cubo 3D en los diagramas de implementación.
+
+Las instancias de componentes de software muestran unidades de software en tiempo de ejecución ayudan a identificar sus dependencias y su localización en nodos. Pueden mostrar qué interfaces implementan y qué objetos contienen. se representan con un rectángulo atravesado por una elipse y dos rectángulos más pequeños.
+Definicion
+Diagrama estructurado que muestra la arquitectura del sistema desde el punto de vista del despliegue (distribución) de los los artefactos del software en los destinos de despliegue.
+
+diagrama del Lenguaje Unificado de Modelado que se utiliza para modelar la disposición física de los artefactos software en nodos (usualmente plataforma de hardware
+Diagramas de despliegue.
+Diagrama estructurado
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 6    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Encargada de la implementación y control de calidad de todo el software y hardware instalado en el entorno de producción.
+
+Posibilidad construir, instalar, probar y desplegar
+
+una versión específica
+
+Mantener actualizada la Biblioteca de Software Definitivo (DSL), donde se guardan copias de todo el software en producción, y el Depósito de Hardware Definitivo (DHS)
+
+Que los clientes y el personal de TI estén satisfechos con el resultado
+
+Cómo puede afectar la nueva versión a otras áreas del entramado TI.
+
+Cuáles son los recursos humanos y técnicos necesarios para llevar a cabo la implementación de la nueva versión con garantías de éxito.
+
+Quiénes serán los responsables directos en las diferentes etapas del proceso
+
+Cuál es la vida media útil esperada de la nueva versión.
+
+Qué impacto puede tener el proceso de lanzamiento de la nueva versión en la calidad del servicio.
+
+Tipos de versiones
+Implementación
+Impacto en la infraestructura TI...
+
+Completo y sincronizado: se realiza de manera integral y simultánea en todos los emplazamientos.
+
+Fragmentado: ya sea bien espacial o temporalmente. Por ejemplo, introduciendo la nueva versión por grupos de trabajo o incrementando progresivamente la funcionalidad ofrecida.
+
+El siguiente diagrama nos ilustra gráficamente la evolución temporal de una versión
+
+Principales Actividades...
+Pruebas del correcto funcionamiento de la versión en un entorno realista.
+
+Pruebas de los procedimientos automáticos o manuales de instalación.
+
+Listas de "bugs" o errores detectados, si se diera el caso.
+
+Pruebas de los planes de back-out.
+
+Documentación para usuarios y personal de servicio.
+
+modificaciones que reparan de forma rápida un error conocido
+
+Menores
+Establecer una política de implementación de nuevas versiones de hardware y software.
+
+Implementar las nuevas versiones de software y hardware en el entorno.
+
+Garantizar que el proceso de cambio cumpla las especificaciones correspondiente.
+
+Mantener actualizado el Depósito de Hardware Definitivo (DHS).
+
+Validación
+Desarrollo
+Emergencia
+suelen implicar la corrección de varios errores conocidos puntuales y que a menudo son modificaciones que vienen a implementar de una manera correctamente documentada soluciones de emergencia.
+
+Mayores
+Representan importantes despliegues de software y hardware y que introducen modificaciones importantes en la funcionalidad, características técnicas, etc.
+
+Back-up automático de datos.
+Actualizaciones necesarias de las Bases de Datos asociadas.
+Instalación de las nuevas versiones en diferentes sistemas o emplazamientos geográficos.
+Creación de logs asociados al proceso de instalación.
+Gestión de Versiones
+"Parte integrante del desarrollo lo componen los planes de back-out asociados. Estos tendrán que tomar en cuenta la disponibilidad acordada con los clientes en los SLAs correspondientes"
+
+Comunicación y formación
+Cuando se considere oportuno se impartirán cursos presenciales o remotos mediante módulos de e-learning sobre el funcionamiento de la nueva versión.
+
+Se desarrollará una página de FAQs donde los usuarios puedan aclarar las dudas más habituales y puedan solicitar ayuda o soporte técnico en el uso de la nueva versión.
+
+Gestión De Servicios Y Gobernabilidad De Ti
+Cristopher Barria B
+Un firme compromiso de la organización con la Gestión de Versiones y sus responsables.
+
+Un adecuado plan de comunicación que informe a todos los responsables y usuarios de la organización TI de las ventajas de una correcta gestión de todo el proceso de cambio.
+
+Que es y para que sirve???
+"Distribución nueva versión"
+Pruebas de carácter funcional deben ser realizadas por un selecto grupo de usuarios finales.
+
+La experiencia subjetiva de usuario.
+
+Los comentarios y sugerencias sobre usabilidad y funcionalidad. o Las dudas que hayan surgido durante el uso de la nueva versión.
+
+La claridad de la documentación que se pondrá a disposición del usuario final.
+
+Los usuarios deben conocer
+el próximo lanzamiento de una nueva versión y conocer con anterioridad la nueva funcionalidad planificada o los errores que se pretenden resolver para participar, a su discreción, en el proceso.
+ITIL
+Gestión de Versiones
+No existe una clara asignación de responsabilidades y/o la organización TI no acepta la figura dominante de la Gestión de Versiones en todo el proceso de implementación del cambio.
+
+No se dispone de un entorno de pruebas adecuado en donde se puedan testear de forma realista las nuevas versiones de software y hardware.
+
+Se realizan cambios sin tener en cuenta a la Gestión de Versiones argumentado que estos sólo son responsabilidad de un determinado grupo de trabajo o que su "urgencia" requería de ello.
+
+Objetivos Principales
+Beneficios
+
+.
+El proceso de cambio se realiza sin deterioro de la calidad de servicio.
+
+Las nuevas versiones cumplen los objetivos propuestos.
+
+El correcto mantenimiento de la DSL impide que se pierdan (valiosas) copias de los archivos fuente.
+
+Control centralizado del software y hardware desplegado.
+
+Protección contra virus y problemas asociados a versiones de software incontroladas.
+
+Como solucionamos estos problemas???
+
+Dificultades
+
+Versiones
+Objetivos
+Funcionalidad
+Visión
+General
+Procesos
 
 
-    def mostrar(self):
-        if self.head is None:
-            print("La agenda esta vacía")
-            return
-        else:
-            n = self.head
-            while n is not None:
-                print(n.dato)
-                n = n.siguiente
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 7    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    def mostrarInv(self):
-        prev = None
-        n = self.head
-        while n is not None:
-            next = n.siguiente
-            n.siguiente = prev
-            prev = n
-            n = next
-        self.head = prev
-       
+Ventajas de sistemas distribuidos
+Centralizados:
 
+existe un repositorio centralizado de todo el código, del cual es responsable un único usuario (o conjunto de ellos). Se facilitan las tareas administrativas a cambio de reducir flexibilidad, pues todas las decisiones fuertes (como crear una nueva rama) necesitan la aprobación del responsable. Algunos ejemplos son CVS y Subversion.
 
-listado = Lista()
+Distribuidos:
 
-Salir = False
-opcion = 0
+Cada usuario tiene su propio repositorio. Los distintos repositorios pueden intercambiar y mezclar revisiones entre ellos. Es frecuente el uso de un repositorio, que está normalmente disponible, que sirve de punto de sincronización de los distintos repositorios locales.
 
-while not Salir:
-    print("--------------------------------------")
-    print("1. Ingreso de datos")
-    print("2. Mostrar datos")
-    print("3. Invertir datos")
-    print("4. Salir")
-    print("--------------------------------------")
+Ejemplos: Git y Mercurial.
 
-    menu = (input("Opcion: "))
-    if menu.isdigit():
-        menu = int(menu)
-        if menu == 1:
-            numero = input("Ingrese un dato: ")
-            listado.listar(numero)
-        elif menu == 2:
-            listado.mostrar()
-        elif menu == 3:
-            listado.mostrarInv()
-            listado.mostrar()
-        elif menu == 4:
-            exit()
-    else:
-            print("Debe ingresar una opcion valida ")
+Ventajas de sistemas centralizados
+Resolver :Es el acto de la intervención del usuario para atender un conflicto entre diferentes cambios al mismo documento.
+
+Cambio ("change", "diff", "delta"): Un cambio representa una modificación específica a un documento bajo control de versiones.
+
+Lista de cambios ("changelist", "change set", "patch")
+
+Una lista de cambios identifica el conjunto de cambios hechos en un único commit.
+
+Congelar:
+
+Congelar significa permitir los últimos cambios (commits) para solucionar las fallas a resolver en una entrega (release) y suspender cualquier otro cambio antes de una entrega, con el fin de obtener una versión consistente.
+
+Copia de trabajo ("workspace")
+
+La copia de trabajo es la copia local de los ficheros de un repositorio, en un momento del tiempo o revisión específicos. Todo el trabajo realizado sobre los ficheros en un repositorio se realiza inicialmente sobre una copia de trabajo, de ahí su nombre. Conceptualmente, es un cajón de aren
+
+Herramientas
+Control de versiones para la informática
+Revision Control System (RCS): Almacena la última versión y las diferencias con la anterior, lo que permiten acceder rápidamente a la versión original.
+
+Source Code Control System (SCCS): está basado en diferencias entrelazadas, que permiten construir versiones como un conjunto de subrevisiones.
+
+Código abierto
+
+Concurrent Versions System (CVS): basado originalmente en RCS, licenciado mediante GPL
+CVSNT : basado en CVS
+OpenCVS : clon CVS bajo licencia BSD, con énfasis en seguridad y correcto uso del código fuente
+Subversion (svn): inspirado en CVS
+Vesta: sistema de construcción con soporte para versionado de ficheros en repositorios distribuidos
+Terminología: Terminos de Uso común
+Repositorio (depósito o depot): El repositorio es el lugar en el que se almacenan los datos actualizados e históricos de cambios, a menudo en un servidor
+
+Módulo: Conjunto de directorios y/o archivos dentro del repositorio que pertenecen a un proyecto común.
+
+Revisión ("version") : Una revisión es una versión determinada de la información que se gestiona.
+
+Rotular ("tag"): Darle a alguna versión de cada uno de los ficheros del módulo en desarrollo en un momento preciso un nombre común ("etiqueta" o "rótulo") para asegurarse de reencontrar ese estado de desarrollo posteriormente bajo ese nombre.
+
+Línea base ("Baseline"): Una revisión aprobada de un documento o fichero fuente, a partir del cual se pueden realizar cambios subsiguientes.
+
+Desplegar ("Check-out", "checkout", "co"): Un despliegue crea una copia de trabajo local desde el repositorio. Se puede especificar una revisión concreta, y por defecto se suele obtener la última.
+
+"Publicar" o "Enviar" ("commit", "check-in", "ci", "install", "submit"): Un commit sucede cuando una copia de los cambios hechos a una copia local es escrita o integrada sobre repositorio.
+
+Propietario
+
+AccuRev:herramienta para gestión de la configuración de código fuente que integra un gestor de incidencias basado en flujos que maneja de forma eficiente desarrollo paralelo a escala global; también contempla un servidor para replicación
+
+CA SCM: herramienta para gestión de cambios y configuración de Computer Associates
+
+Autodesk Vault: herramienta de control de versiones diseñada específicamente para aplicaciones Autodesk que gestionan las relaciones complejas entre ficheros de diseño elaborados por AutoCAD y Autodesk Inventor.
+
+¿Que es control de versiones?
+Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración del mismo.
+
+Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación.
+
+Control De Versiones
+Gracias
+
+Juan Luis Matamoros Guzmán
+
+Necesita menos veces estar conectado a la red para hacer operaciones. Esto produce una mayor autonomía y una mayor rapidez.
+Aunque se caiga el repositorio remoto la gente puede seguir trabajando
+Al hacer los distintos repositorio una réplica local de la información de los repositorios remotos a los que se conectan, la información está muy replicada y por tanto el sistema tiene menos problemas en recuperarse si por ejemplo se quema la máquina que tiene el repositorio remoto. Por tanto hay menos necesidad de backups. Sin embargo los backups siguen siendo necesarios para resolver situaciones en las que cierta información todavía no haya sido replicada.
+Arquitecturas de almacenamiento
+Terminología: Terminos de Uso común
+En los sistemas distribuidos hay menos control a la hora de trabajar en equipo ya que no se tiene una versión centralizada de todo lo que se está haciendo en el proyecto.
+En los sistemas centralizados las versiones vienen identificadas por un número de versión. Sin embargo en los sistemas de control de versiones distribuidos no hay números de versión, ya que cada repositorio tendría sus propios números de revisión dependiendo de los cambios. En lugar de eso cada versión tiene un identificador al que se le puede asociar una etiqueta (tag).
+Programas para control de versiones
+Aunque un sistema de control de versiones puede realizarse de forma manual, es muy aconsejable disponer de herramientas que faciliten esta gestión dando lugar a los llamados sistemas de control de versiones o SVC (del inglés System Version Control).
+
+Ejemplos de este tipo de herramientas son entre otros:
+
+CVS,
+
+Subversion,
+
+SourceSafe,
+
+ClearCase,
+
+Darcs,
+
+Bazaar,
+
+Plastic SCM,
+
+Git, Mercurial,
+
+Perforce.
+
+El control de versiones se realiza principalmente en la industria informática para controlar las distintas versiones del código fuente dando lugar a los Sistemas de control de código fuente o SCM (siglas del inglés Source Code Management). Sin embargo, los mismos conceptos son aplicables a otros ámbitos como documentos, imágenes, sitios web, etc.
+
+Características
+
+Mecanismo de almacenamiento de los elementos que deba gestionar (ej. archivos de texto, imágenes, documentación...).
+Posibilidad de realizar cambios sobre los elementos almacenados (ej. modificaciones parciales, añadir, borrar, renombrar o mover elementos).
+Registro histórico de las acciones realizadas con cada elemento o conjunto de elementos (normalmente pudiendo volver o extraer un estado anterior del producto).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+----------------------------------------------------------   Presentación 8    -----------------------------------------------------------------------------------------
+----------------------------------------------------------                     -----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------

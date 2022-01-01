@@ -15,18 +15,39 @@
 </head>
 
 <body>
-  <h2>Cargar CSV</h2>
   <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
-    <input type="file" name="document" id="document" />
-    <input type="submit" value="Cargar y Convertir" />
     <div class="wrapper fadeInDown">
-      {%if error%}
-      <p> {{text_error}} </p>
-      {%endif%}
-      {%if not error%}
-      <p> {{text_error}} </p>
-      {%endif%}      
+      <h2>CSV convertido en XML lista de edición</h2>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Artista</th>
+            <th scope="col">Veces Reproducida</th>
+            <th scope="col">Album</th>
+            <th scope="col">imagen</th>
+            <th scope="col">ruta</th>
+            <th scope="col">nombre</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for cancion in data%}
+          <tr >          
+          <td>{{cancion.artista}}</td>
+            <td>{{cancion.vecesReproducida}}</td>
+            <td>{{cancion.album}}</td>
+            <td>{{cancion.imagen}}</td>
+            <td>{{cancion.ruta}}</td>
+            <td>{{cancion.nombre}}</td>
+            <td>
+              <a type="button" class="btn btn-success" href="editar">
+                Editar
+              </a>&nbsp;
+            </td>            
+          </tr {% endfor %}>
+        </tbody>
+      </table>
+      <input type="submit" value="Conservar cambios y enviar" />
     </div>
 
   </form>
@@ -56,18 +77,14 @@
     width: 100%;
     min-height: 100%;
     padding: 10px;
-  }
 
+    a.button {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
   
-
-
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
+      text-decoration: none;
+      color: initial;
+  }
+  }
 </style>

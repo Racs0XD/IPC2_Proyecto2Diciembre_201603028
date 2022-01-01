@@ -1,4 +1,4 @@
-from flask import Flask, Response, request
+from flask import Flask, Response, jsonify, request
 from flask_cors import CORS
 
 from math import pow
@@ -6,11 +6,24 @@ from math import pow
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origin": "*"}})#habilita el acceso a la api desde rutas externas
 
+biblioteca = []
 
-@app.route('/')
-def index():
-    return 'Hola mundo, que tal'
+@app.route('/carga', methods=['POST'])
+def add_usuario():  
+    new_song = {
+        "artista": request.json['username'],
+        "vecesReproducida": request.json['vecesReproducida'],
+        "album": request.json['album'],
+        "imagen": request.json['imagen'],
+        "url": request.json['url'],
+        "nombre": request.json['nombre']
+    }
+    biblioteca.append(new_song)            
+    return jsonify({'ok':True, "Usuario": "Usuario agreado satisfactoriamente"})
 
+@app.route('/mostrar')
+def listado():    
+    return jsonify(biblioteca)
 
 @app.route('/csv', methods=['GET'])
 def get_datos():
@@ -28,13 +41,6 @@ def post_data():
     save_file.close()
     return Response(status=204)
 
-
-@app.route('/potencia', methods=['GET'])
-def potencia():
-    num_1 = int(request.args.get('num_1'))
-    num_2 = int(request.args.get('num_2'))
-
-    return str(int(pow(num_1, num_2)))
 
 
 if __name__ == '__main__':

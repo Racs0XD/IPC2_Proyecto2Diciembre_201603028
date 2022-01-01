@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from IPCMusic.views import *
+from IPCMusic.views import inicio,carga_csv,enviar_json,carga_xml
 
 urlpatterns = [
     path('', inicio, name = "Inicio"),
     path('csv/', carga_csv, name = "CSV"),
+    path('csv_xml/', enviar_json, name = "CSV_XML"),
     path('xml/', carga_xml, name = "XML"),
 ]
