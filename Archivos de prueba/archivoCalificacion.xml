@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListasReproduccion>
+    <cancion nombre="Attack">
+        <artista>30 Seconds to Mars</artista>
+        <album>A Beautiful Lie</album>
+		<vecesReproducida>2</vecesReproducida>
+        <imagen>https://img.discogs.com/3pW0RcwoTI_nOZnAVVyHUM8ONXU=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4073689-1354357187-8928.jpeg.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/10McPyiWhxWPoGRTkJ-oKkhvFbmQiGoLB/preview</ruta>
+    </cancion>
+    <cancion nombre="Aún respiro">
+        <artista>Avalanch</artista>
+        <album>El hijo pródigo</album>
+		<vecesReproducida>5</vecesReproducida>
+        <imagen>https://img.discogs.com/NOuDfD5yDoVA9hbnoymcXISlhO8=/fit-in/600x549/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-4428016-1556634098-7253.jpeg.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/16wA7IIefTGmPRI9EZWGFW414-LmtstEA/preview</ruta>
+    </cancion>
+    <cancion nombre="A little piece of heaven">
+        <artista>Avenged Sevenfold</artista>
+        <album>Avenged Sevenfold</album>
+		<vecesReproducida>7</vecesReproducida>
+        <imagen>https://m.media-amazon.com/images/I/61KGqeewnFL._SL1425_.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1_ZhEJwO0wGyi9xSZTyafiA2aslYQ-waR/preview</ruta>
+    </cancion>
+    <cancion nombre="Colors">
+        <artista>Flow</artista>
+        <album>Sencillo</album>
+		<vecesReproducida>2</vecesReproducida>
+        <imagen>https://www.spirit-of-rock.com/les%20goupes/F/FLOW/pics/logo.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1xnf83fIWjI9d821vdxPRwiqfBS86jgVG/preview</ruta>
+    </cancion>
+    <cancion nombre="Volveras">
+        <artista>Concha Buika</artista>
+        <album>Niña de fuego</album>
+		<vecesReproducida>19</vecesReproducida>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/b/b1/Concha_Buika_-_Ni%C3%B1a_de_Fuego.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1iylgQq7-MPgkEEAS8peNDUNrahmbLQLC/preview</ruta>
+    </cancion>
+    <cancion nombre="For No One">
+        <artista>The Beatles</artista>
+        <album>Revolver</album>
+		<vecesReproducida>21</vecesReproducida>
+        <imagen>https://revistaladosis.com/wp-content/uploads/2016/08/revolver.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/15R8ZfkvJnl_dvjqi3VHpgHZre9Pe0OKB/preview</ruta>
+    </cancion>
+    <cancion nombre="Guren no Yumiya">
+        <artista>Linked Horizon</artista>
+        <album>Jiyuu e no Shingeki</album>
+		<vecesReproducida>6</vecesReproducida>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/7/73/Attack_on_Titan_OP_LTD.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/173zp5JKOP7MLw_H5UUErtY3od1XwYKoN/preview</ruta>
+    </cancion>
+    <cancion nombre="Hola">
+        <artista>Panda</artista>
+        <album>La revancha del principe charro</album>
+		<vecesReproducida>6</vecesReproducida>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/8/8a/Panda-La_Revancha_Del_Pr%C3%ADncipe_Charro.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1e0x_Awo-SP7B0vkNz6-_Mbdnr3jskz8M/preview</ruta>
+    </cancion>
+    <cancion nombre="Nos hizo falta tiempo">
+        <artista>Concha Buika</artista>
+        <album>Todos los duetos</album>
+		<vecesReproducida>9</vecesReproducida>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/b/b1/Concha_Buika_-_Ni%C3%B1a_de_Fuego.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1b7ZbrXJWw5KFCi1gjy1CpQgqJlfeko9k/preview</ruta>
+    </cancion>
+    <cancion nombre="Pied Piper">
+        <artista>BTS</artista>
+        <album>Love Yourself: Her</album>
+		<vecesReproducida>4</vecesReproducida>
+        <imagen>https://m.media-amazon.com/images/I/61OTozwevnL._SY355_.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1-MVRaCVhuvGYG189FfZQlss9BTD0xexO/preview</ruta>
+    </cancion>
+    <cancion nombre="I Refuse">
+        <artista>Simple plan</artista>
+        <album>Taking one for the team</album>
+		<vecesReproducida>3</vecesReproducida>
+        <imagen>https://m.media-amazon.com/images/I/81qJFzdL-wL._SL1435_.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1y1D5o-6hWLQZWti3iXYv_WJi3HUgwBm7/preview</ruta>
+    </cancion>
+    <cancion nombre="Chasing Cars">
+        <artista>Snow Patrol</artista>
+        <album>Eyes Open</album>
+		<vecesReproducida>26</vecesReproducida>
+        <imagen>https://m.media-amazon.com/images/I/61KQCTBCJ5L.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1RZEyPVxlD5_l3i1dAL4Cr5N2XE-yg6lf/preview</ruta>
+    </cancion>
+        <cancion nombre="World End">
+        <artista>Flow</artista>
+        <album>Golden Coast</album>
+		<vecesReproducida>15</vecesReproducida>
+        <imagen>https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/83/3b/f3/833bf388-d674-7bad-f1af-fc39ab598581/jacket_KSCL00848B01A_550.jpg/400x400cc.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/18Tck4YqPHhi28BojP7yI-P6WZSJSEAT4/preview</ruta>
+    </cancion>
+        <cancion nombre="Delirios de grandeza">
+        <artista>Avalanch</artista>
+        <album>El ángel caído</album>
+		<vecesReproducida>17</vecesReproducida>
+        <imagen>https://img.discogs.com/z_X8MRCLS1TvCaKrLJHndThSVO4=/fit-in/600x590/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-5437673-1541355203-7420.jpeg.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1KsK8qr__Re1DMuv64F_eT35RFXP8CiZs/preview</ruta>
+    </cancion>
+        <cancion nombre="Prision de marfil">
+        <artista>Avalanch</artista>
+        <album>El hijo pródigo</album>
+		<vecesReproducida>8</vecesReproducida>
+        <imagen>https://img.discogs.com/NOuDfD5yDoVA9hbnoymcXISlhO8=/fit-in/600x549/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-4428016-1556634098-7253.jpeg.jpg</imagen>
+        <ruta>https://drive.google.com/file/d/1bJ0aAQnjrNsgaIFccpkXV8IH6c7UblBj/preview</ruta>
+    </cancion>
+    <cancion nombre="Fire in my heart">
+        <artista>Simple plan</artista>
+        <album>Get Your Heart On - The Second Coming!</album>
+		<vecesReproducida>14</vecesReproducida>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/d/d3/Get_Your_Heart_On_-_The_Second_Coming%21.png</imagen>
+        <ruta>https://drive.google.com/file/d/14XwJaK1hOsC3aZI5unKFCp1pMbseqTAh/preview</ruta>
+    </cancion>
+</ListasReproduccion>

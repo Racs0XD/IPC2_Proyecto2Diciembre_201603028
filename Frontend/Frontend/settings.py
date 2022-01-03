@@ -55,10 +55,12 @@ ROOT_URLCONF = 'Frontend.urls'
 
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
+STATIC_DIR = os.path.join(BASE_DIR,'static')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR],
+        'DIRS': [TEMPLATE_DIR,STATIC_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,3 +128,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

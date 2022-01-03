@@ -102,7 +102,8 @@ def carga_csv(request):
                         ruta += ru.text   
                     agregar_cancion = ({"artista":artista,"vecesReproducida":veces_rep,"album":album,"imagen":imagen,"ruta":ruta,"nombre":nombre})
                     csv_list.append(agregar_cancion) 
-        context = {'text_error':val,
+        context = {
+            'text_error':val,
             'error':error_csv}                
         if error_csv is True:
             error_csv = False  
@@ -143,12 +144,25 @@ def carga_xml(request):
                     for vr in can.iter("vecesReproducida"):
                         veces_rep += vr.text       
                     for im in can.iter("imagen"):
-                        imagen += im.text 
+                        imagen += str(im.text)
                     for ru in can.iter("ruta"):
-                        ruta += ru.text   
+                        ruta += str(ru.text)
                     agregar_cancion = ({"artista":artista,"vecesReproducida":veces_rep,"album":album,"imagen":imagen,"ruta":ruta,"nombre":nombre})
                     csv_list.append(agregar_cancion) 
     return redirect('CSV_XML')
+
+
+def editar(request):
+    if request.method == 'GET':
+        context = {'data': csv_list}
+        return render(request, 'editar.html', context)
+    elif request.POST["subtext"]:    
+        editado = request.POST["textarea"]    
+        url = endpoint.format('/cargaedit')
+        requests.post(url,json=editado) 
+        csv_list.clear()      
+        return redirect("Inicio")
+
 
 def enviar_json(request):    
     if request.method == 'GET':
@@ -159,4 +173,37 @@ def enviar_json(request):
         requests.post(url,json=csv_list) 
         csv_list.clear()      
         return redirect("Inicio")
+
+
+def info(request):
+    return render(request, 'info.html')
+
+def doc(request):
+    return render(request, 'doc.html')
+
+def escuchadas(request):
+    if request.method == 'GET':
+        url = endpoint.format('/escuchadas')
+        data = requests.get(url)  
+        return render(request, 'escuchadas.html')
+    return render(request, 'escuchadas.html')
+
+def reproducidas(request):
+    if request.method == 'GET':
+        url = endpoint.format('/reproducidas')
+        data = requests.get(url)  
+        return render(request, 'reproducidas.html')
+    return render(request, 'reproducidas.html')
+
+def clasificacion(request):
+    return render(request, 'clasificacion.html')
+
+def escuchadasL(request):
+    return render(request, 'escuchadasL.html')
+
+def reproducidasL(request):
+    return render(request, 'reproducidasL.html')
+
+
+
 
