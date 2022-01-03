@@ -8,7 +8,6 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="csv">Convertir CSV a XML</a>
         <a class="nav-item nav-link active" href="xml">Cargar XML</a>
-        &nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-light">Descarga de Archivo</button>
       </div>
     </div>
   </nav>
@@ -16,6 +15,57 @@
   <title>
     IPCMusic
   </title>
+  <body>
+    <div class="wrapper fadeInDown">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Artista</th>
+            <th scope="col">Veces Reproducida</th>
+            <th scope="col">Album</th>
+            <th scope="col">imagen</th>
+            <th scope="col">ruta</th>
+            <th scope="col">nombre</th>
+          </tr>
+        </thead>
+          
+        <tbody>
+          <form method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
+          {% for cancion in data%}
+          <tr >          
+            <td>{{cancion.artista}}</td>
+            <td>{{cancion.vecesReproducida}}</td>
+            <td>{{cancion.album}}</td>
+            <td><img src={{cancion.imagen}}></img></td>
+            <td><iframe src={{cancion.ruta}}></iframe></td>
+            <td>{{cancion.nombre}}</td>  
+          </tr {% endfor %}>
+        </tbody>        
+      </table>  
+      </form> 
+    </div>    
+
+
+  <footer>
+      &nbsp;&nbsp;&nbsp;Oscar Morales   
+  </footer>
+
+
+  </body>
+
+
+
+<style>
+  footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+</style>
 </html>
   
   

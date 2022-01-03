@@ -7,16 +7,14 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Convertir CSV a XML</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertir CSV a XML</title>
+  </head>
+</html>
 
-<body>
-  <form method="POST" enctype="multipart/form-data">
-    {% csrf_token %}
     <div class="wrapper fadeInDown">
       <h2>CSV convertido en XML lista de edición</h2>
       <table class="table table-hover">
@@ -30,61 +28,122 @@
             <th scope="col">nombre</th>
           </tr>
         </thead>
+          
         <tbody>
+          <form method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
           {% for cancion in data%}
           <tr >          
-          <td>{{cancion.artista}}</td>
+            <td>{{cancion.artista}}</td>
             <td>{{cancion.vecesReproducida}}</td>
             <td>{{cancion.album}}</td>
             <td>{{cancion.imagen}}</td>
             <td>{{cancion.ruta}}</td>
-            <td>{{cancion.nombre}}</td>
-            <td>
-              <a type="button" class="btn btn-success" href="editar">
-                Editar
-              </a>&nbsp;
-            </td>            
+            <td>{{cancion.nombre}}</td>  
           </tr {% endfor %}>
-        </tbody>
-      </table>
-      <input type="submit" value="Conservar cambios y enviar" />
-    </div>
+        </tbody>        
+      </table>  
+      <input type="submit" value="Conservar cambios y enviar" />   
+      </form> 
+    </div>    
+    
+    
 
-  </form>
-</body>
+  
 
-</html>
+
+
 
 <style>
-  textarea {
+    table {
+        width:100%;
+        table-layout: fixed;
+    }
+    
+    td{
+      word-wrap:break-word
+  }
+  
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+  }
+
+
+  /* BASIC */
+
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #000000;
+  }
+  
+  
+  
+  /* STRUCTURE */
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+  #formContent {
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 1500px;
+    max-width: 450px;
     position: relative;
     padding: 0px;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
-    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
   }
-
-  .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: top;
-    width: 100%;
-    min-height: 100%;
-    padding: 10px;
-
-    a.button {
-      -webkit-appearance: button;
-      -moz-appearance: button;
-      appearance: button;
   
-      text-decoration: none;
-      color: initial;
+  #formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
   }
+  
+  
+  
+  /* TABS */
+  
+  h2.inactive {
+    color: #cccccc;
   }
+  
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+
+  
 </style>
